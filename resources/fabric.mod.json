@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "donutclient",
+  "version": "1.0.0",
+
+  "name": "Donut Client",
+  "description": "Advanced Hypixel Skyblock macro client",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FuzzyDonutPro/donut-client",
+    "sources": "https://github.com/FuzzyDonutPro/donut-client"
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/donutclient/icon.png",
+
+  "environment": "client",
+
+  "entrypoints": {
+    "client": [
+      "com.donut.client.DonutClient"
+    ]
+  },
+
+  "mixins": [
+    "donut_client.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+
+  "suggests": {
+    "another-mod": "*"
+  }
+}

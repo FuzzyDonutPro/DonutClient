@@ -1,0 +1,19 @@
+{
+  "name": "Optimal Wheat Farm",
+  "crop": "wheat",
+  "plotSize": "144x144",
+  "description": "Vertical rows with optimal water placement",
+  "blocks": [
+    {"type": "farmland", "x": 0, "y": 0, "z": 0},
+    {"type": "water", "x": 4, "y": 0, "z": 0},
+    {"type": "farmland", "x": 5, "y": 0, "z": 0}
+  ],
+  "pattern": "vertical_rows",
+  "waterSpacing": 4,
+  "totalBlocks": {
+    "farmland": 18000,
+    "water": 2000,
+    "crops": 18000
+  },
+  "efficiency": "98%"
+}
